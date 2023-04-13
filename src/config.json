@@ -1,10 +1,10 @@
 {
   "80001": {
     "realEstate": {
-      "address": "0xFB0fea10f54f3a51e1304eE59844Bf7208d5c448"
+      "address": "0x0C4057cF1A689C67CcB781c64106Ca8FaB1f348f"
     },
     "escrow": {
-      "address": "0xc5FcdEd498B655598c0e191b94fcd15D2EF5C9C5"
+      "address": "0xCaB1F92C49079E25C031B32b5Ac1bbDAFe701f33"
     }
   },
   "defaultChainID": "80001",
