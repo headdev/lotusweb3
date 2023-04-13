@@ -15,9 +15,10 @@ const Navigation = ({ account, setAccount }) => {
             </div>
             
             <ul className='nav__links'>
-                <li><a href="#">Buy</a></li>
-                <li><a href="#">Rent</a></li>
-                <li><a href="#">Sell</a></li>
+                <li><a href="#">Comprar</a></li>
+                <li><a href="#">Rentar</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Lotus Web3</a></li>
             </ul>
 
            
@@ -35,7 +36,7 @@ const Navigation = ({ account, setAccount }) => {
                     className='nav__connect'
                     onClick={connectHandler}
                 >
-                    Connect
+                    Connect Wallet
                 </button>
             )}
         </nav>

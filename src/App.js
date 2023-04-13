@@ -103,7 +103,7 @@ function App() {
       <Navigation account={account} setAccount={setAccount} />
       <Search />
       <div className="cards__section">
-        <h3>Homes for you</h3>
+        <h3>Conoce nuestros proyectos mas recientes</h3>
         <hr />
         <div className="cards">
           {homes.length > 0 ? (

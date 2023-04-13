@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Airbnb+Cereal+App:wght@300;400;500;600;700;800&display=swap');
+
 
 * {
   margin: 0;
@@ -13,6 +15,7 @@
   --clr-blue: #6c63ff;
   --clr-blue-2: #4c46b6;
   --clr-green: #4fb646;
+  --clr-lotus:#AFAFA5;
 }
 
 body {
@@ -54,8 +57,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  font-family: 'Airbnb Cereal App', sans-serif;
+  font-size: 16px;
   list-style: none;
+  font-weight: 7  00;
 }
 
 .nav__links li {
@@ -76,28 +81,29 @@ nav {
   height: 50px;
   margin: 0 auto;
 
-  background-color: var(--clr-blue);
+  background-color: var(--clr-lotus);
   color: var(--clr-white);
 
   border: none;
   border-radius: 4px;
 
-  font-family: "Open Sans";
-  font-size: 1.1em;
-  font-weight: 600;
+  font-family: 'Airbnb Cereal App', sans-serif;
+  font-size: 16px;
+
+  font-weight: 500;
 
   cursor: pointer;
   transition: all 250ms ease;
 }
 
 .nav__connect:hover {
-  background-color: var(--clr-blue-2);
+  background-color: var(--clr-lotus);
 }
 
 /* ------------------------------------------------------ */
 /* -- HEADER -- */
-
 header {
+  background-color: #f5f5f5; /* Color de fondo alternativo */
   background-image: url("./assets/houses.png");
   background-position: center;
   background-size: cover;
@@ -105,24 +111,27 @@ header {
 
   position: relative;
 }
-
 .header__title {
   position: absolute;
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  font-family: 'Airbnb Cereal App', sans-serif;
   color: var(--clr-white);
-  font-size: 2em;
+  font-size: 35px;
 
   width: 100%;
   text-align: center;
 }
 
+
+
 .header__search {
   padding: 25px;
   min-width: 40%;
-
+  font-family: 'Airbnb Cereal App', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
   position: absolute;
   top: 45%;
   left: 50%;
@@ -130,9 +139,12 @@ header {
 }
 
 .header__search::placeholder {
-  font-family: "Open Sans";
-  font-size: 1.25em;
-  font-weight: 600;
+  font-family: 'Airbnb Cereal App', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--clr-black);
+
+  
 }
 
 .header__search:hover {
@@ -146,10 +158,15 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  font-size: 18px;
+  font-family: 'Airbnb Cereal App', sans-serif;
 }
 
 .cards__section h3 {
   margin: 50px 0 20px;
+  font-family: 'Airbnb Cereal App', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .cards {

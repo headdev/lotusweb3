@@ -133,6 +133,9 @@ nav {
   width: 175px;
   height: 50px;
   margin: 0 auto;
+  font-family: 'Cereal', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
 
   background-color: var(--clr-lotus);
   color: var(--clr-white);
